@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EKCinemaViewController">
+            <connections>
+                <outlet property="albulm" destination="NrB-HZ-08S" id="QqH-j0-GtT"/>
+                <outlet property="autoLight" destination="5hr-7h-EYg" id="VIm-ED-XBu"/>
+                <outlet property="barCancel" destination="WsR-5m-OE0" id="R8c-s3-wwj"/>
+                <outlet property="cancel" destination="8KH-Hz-maM" id="nTB-5m-VWQ"/>
+                <outlet property="containerView" destination="Pc8-bE-nOW" id="epf-1D-w0n"/>
+                <outlet property="focus" destination="BLi-7V-HEz" id="kMN-Y0-tVb"/>
+                <outlet property="offLight" destination="ya4-9h-RsR" id="XGt-Th-Qff"/>
+                <outlet property="onLight" destination="pL5-tN-Ifc" id="8Ew-98-Hdq"/>
+                <outlet property="take" destination="rg3-5F-h0y" id="Ovq-q9-JlN"/>
+                <outlet property="turnCinema" destination="WLw-OR-uMc" id="Ri0-oQ-fC9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="RIC-LD-IfM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPg-Bm-4B7">
+                    <rect key="frame" x="0.0" y="14" width="375" height="57"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KH-Hz-maM" userLabel="cancel">
+                            <rect key="frame" x="8" y="13" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="exitTakeCamera" destination="-1" eventType="touchUpInside" id="oVK-4U-eY0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hr-7h-EYg" userLabel="auto">
+                            <rect key="frame" x="71" y="13" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="flashLightChanged:" destination="-1" eventType="touchUpInside" id="DfM-10-wVV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pL5-tN-Ifc" userLabel="on">
+                            <rect key="frame" x="125" y="13" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ya4-9h-RsR" userLabel="off">
+                            <rect key="frame" x="280" y="13" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLw-OR-uMc" userLabel="turn">
+                            <rect key="frame" x="179" y="13" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="toggleCamera:" destination="-1" eventType="touchUpInside" id="Hg9-jk-Blv"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qmk-Pe-vU0">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="J4d-TJ-oVs"/>
+                        <barButtonItem title="Item" id="WsR-5m-OE0" userLabel="cancel">
+                            <connections>
+                                <action selector="cancelPicture" destination="-1" id="h0I-4S-LbP"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bVc-f9-7sw"/>
+                        <barButtonItem title="Item" id="rg3-5F-h0y" userLabel="take">
+                            <connections>
+                                <action selector="takePicture" destination="-1" id="IJJ-QB-fid"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ixA-sn-Ky2"/>
+                        <barButtonItem title="Item" id="NrB-HZ-08S" userLabel="albulm">
+                            <connections>
+                                <action selector="usePicture" destination="-1" id="EzB-NF-cgB"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-bE-nOW">
+                    <rect key="frame" x="0.0" y="79" width="375" height="544"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLi-7V-HEz" userLabel="focus">
+                            <rect key="frame" x="121" y="182" width="116" height="105"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

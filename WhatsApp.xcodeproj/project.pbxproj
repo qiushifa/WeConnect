@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9406B88B1EDFD72100108E70 /* UIView+EKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406B88A1EDFD72100108E70 /* UIView+EKFrame.m */; };
+		9406B8911EDFE08500108E70 /* EKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406B88F1EDFE08500108E70 /* EKTableViewCell.m */; };
+		9406B8921EDFE08500108E70 /* EKTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9406B8901EDFE08500108E70 /* EKTableViewCell.xib */; };
+		9406B8941EDFEBFB00108E70 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 9406B8931EDFEBFB00108E70 /* test.png */; };
+		9406B8981EDFFED100108E70 /* EKMyTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9406B8971EDFFED100108E70 /* EKMyTrendViewController.m */; };
+		9470EF781EC983B200EBA742 /* EKCinemaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9470EF771EC983B200EBA742 /* EKCinemaViewController.xib */; };
+		94EA6D721EC05DDC0026A843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D711EC05DDC0026A843 /* main.m */; };
+		94EA6D751EC05DDC0026A843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D741EC05DDC0026A843 /* AppDelegate.m */; };
+		94EA6D7B1EC05DDC0026A843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6D791EC05DDC0026A843 /* Main.storyboard */; };
+		94EA6D801EC05DDC0026A843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6D7E1EC05DDC0026A843 /* LaunchScreen.storyboard */; };
+		94EA6D901EC060740026A843 /* EKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D8F1EC060740026A843 /* EKRootViewController.m */; };
+		94EA6D931EC0620C0026A843 /* EKTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D921EC0620C0026A843 /* EKTrendViewController.m */; };
+		94EA6D961EC062160026A843 /* EKPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D951EC062160026A843 /* EKPhoneViewController.m */; };
+		94EA6D991EC062240026A843 /* EKChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D981EC062240026A843 /* EKChatViewController.m */; };
+		94EA6D9C1EC0622C0026A843 /* EKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6D9B1EC0622C0026A843 /* EKSettingViewController.m */; };
+		94EA6D9E1EC069840026A843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6D9D1EC069840026A843 /* Assets.xcassets */; };
+		94EA6DA51EC06CE70026A843 /* 动态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DA01EC06CE70026A843 /* 动态@2x.png */; };
+		94EA6DA61EC06CE70026A843 /* 对话@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DA11EC06CE70026A843 /* 对话@2x.png */; };
+		94EA6DA71EC06CE70026A843 /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DA21EC06CE70026A843 /* 设置@2x.png */; };
+		94EA6DA81EC06CE70026A843 /* 通话@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DA31EC06CE70026A843 /* 通话@2x.png */; };
+		94EA6DA91EC06CE70026A843 /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DA41EC06CE70026A843 /* 相机@2x.png */; };
+		94EA6DAD1EC06F7E0026A843 /* EKTrendPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6DAC1EC06F7E0026A843 /* EKTrendPrivacyViewController.m */; };
+		94EA6DB21EC0726F0026A843 /* EKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6DB11EC0726F0026A843 /* EKTabBar.m */; };
+		94EA6DB51EC0813F0026A843 /* EKCinemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6DB41EC0813F0026A843 /* EKCinemaViewController.m */; };
+		94EA6DB71EC0BB580026A843 /* 加号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DB61EC0BB580026A843 /* 加号@2x.png */; };
+		94EA6DBA1EC0BC340026A843 /* EKNewChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA6DB91EC0BC340026A843 /* EKNewChatViewController.m */; };
+		94EA6DBE1EC0C3140026A843 /* 书写@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA6DBD1EC0C3140026A843 /* 书写@2x.png */; };
+		94F43F501EC175DB00B77428 /* 动态_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F43F4F1EC175DB00B77428 /* 动态_@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9406B8891EDFD72100108E70 /* UIView+EKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EKFrame.h"; sourceTree = "<group>"; };
+		9406B88A1EDFD72100108E70 /* UIView+EKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EKFrame.m"; sourceTree = "<group>"; };
+		9406B88C1EDFD77C00108E70 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		9406B88D1EDFD84100108E70 /* WhatsApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsApp.pch; sourceTree = "<group>"; };
+		9406B88E1EDFE08500108E70 /* EKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableViewCell.h; sourceTree = "<group>"; };
+		9406B88F1EDFE08500108E70 /* EKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableViewCell.m; sourceTree = "<group>"; };
+		9406B8901EDFE08500108E70 /* EKTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EKTableViewCell.xib; sourceTree = "<group>"; };
+		9406B8931EDFEBFB00108E70 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		9406B8961EDFFED100108E70 /* EKMyTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKMyTrendViewController.h; sourceTree = "<group>"; };
+		9406B8971EDFFED100108E70 /* EKMyTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKMyTrendViewController.m; sourceTree = "<group>"; };
+		9470EF771EC983B200EBA742 /* EKCinemaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EKCinemaViewController.xib; sourceTree = "<group>"; };
+		94EA6D6D1EC05DDC0026A843 /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EA6D711EC05DDC0026A843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94EA6D731EC05DDC0026A843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94EA6D741EC05DDC0026A843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94EA6D7A1EC05DDC0026A843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94EA6D7F1EC05DDC0026A843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94EA6D811EC05DDC0026A843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EA6D8E1EC060740026A843 /* EKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKRootViewController.h; sourceTree = "<group>"; };
+		94EA6D8F1EC060740026A843 /* EKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKRootViewController.m; sourceTree = "<group>"; };
+		94EA6D911EC0620C0026A843 /* EKTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTrendViewController.h; sourceTree = "<group>"; };
+		94EA6D921EC0620C0026A843 /* EKTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTrendViewController.m; sourceTree = "<group>"; };
+		94EA6D941EC062160026A843 /* EKPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPhoneViewController.h; sourceTree = "<group>"; };
+		94EA6D951EC062160026A843 /* EKPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPhoneViewController.m; sourceTree = "<group>"; };
+		94EA6D971EC062240026A843 /* EKChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKChatViewController.h; sourceTree = "<group>"; };
+		94EA6D981EC062240026A843 /* EKChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKChatViewController.m; sourceTree = "<group>"; };
+		94EA6D9A1EC0622C0026A843 /* EKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSettingViewController.h; sourceTree = "<group>"; };
+		94EA6D9B1EC0622C0026A843 /* EKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSettingViewController.m; sourceTree = "<group>"; };
+		94EA6D9D1EC069840026A843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EA6DA01EC06CE70026A843 /* 动态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态@2x.png"; sourceTree = "<group>"; };
+		94EA6DA11EC06CE70026A843 /* 对话@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对话@2x.png"; sourceTree = "<group>"; };
+		94EA6DA21EC06CE70026A843 /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
+		94EA6DA31EC06CE70026A843 /* 通话@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通话@2x.png"; sourceTree = "<group>"; };
+		94EA6DA41EC06CE70026A843 /* 相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@2x.png"; sourceTree = "<group>"; };
+		94EA6DAB1EC06F7E0026A843 /* EKTrendPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTrendPrivacyViewController.h; sourceTree = "<group>"; };
+		94EA6DAC1EC06F7E0026A843 /* EKTrendPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTrendPrivacyViewController.m; sourceTree = "<group>"; };
+		94EA6DB01EC0726F0026A843 /* EKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTabBar.h; sourceTree = "<group>"; };
+		94EA6DB11EC0726F0026A843 /* EKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTabBar.m; sourceTree = "<group>"; };
+		94EA6DB31EC0813F0026A843 /* EKCinemaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCinemaViewController.h; sourceTree = "<group>"; };
+		94EA6DB41EC0813F0026A843 /* EKCinemaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCinemaViewController.m; sourceTree = "<group>"; };
+		94EA6DB61EC0BB580026A843 /* 加号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号@2x.png"; sourceTree = "<group>"; };
+		94EA6DB81EC0BC340026A843 /* EKNewChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNewChatViewController.h; sourceTree = "<group>"; };
+		94EA6DB91EC0BC340026A843 /* EKNewChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKNewChatViewController.m; sourceTree = "<group>"; };
+		94EA6DBD1EC0C3140026A843 /* 书写@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "书写@2x.png"; sourceTree = "<group>"; };
+		94F43F4F1EC175DB00B77428 /* 动态_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态_@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EA6D6A1EC05DDC0026A843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9406B8951EDFFE9700108E70 /* MyTrend */ = {
+			isa = PBXGroup;
+			children = (
+				9406B8961EDFFED100108E70 /* EKMyTrendViewController.h */,
+				9406B8971EDFFED100108E70 /* EKMyTrendViewController.m */,
+			);
+			name = MyTrend;
+			sourceTree = "<group>";
+		};
+		94EA6D641EC05DDC0026A843 = {
+			isa = PBXGroup;
+			children = (
+				94EA6D6F1EC05DDC0026A843 /* WhatsApp */,
+				94EA6D6E1EC05DDC0026A843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94EA6D6E1EC05DDC0026A843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D6D1EC05DDC0026A843 /* WhatsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EA6D6F1EC05DDC0026A843 /* WhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6DAE1EC071B40026A843 /* Util */,
+				94EA6D8D1EC05FD80026A843 /* Root */,
+				94EA6D8C1EC05F280026A843 /* Main */,
+				94EA6D8B1EC05F1F0026A843 /* Setting */,
+				94EA6D8A1EC05F130026A843 /* Chat */,
+				94EA6D891EC05F070026A843 /* Cinema */,
+				94EA6D881EC05EF80026A843 /* Phone */,
+				94EA6D871EC05E890026A843 /* Trend */,
+				94EA6D701EC05DDC0026A843 /* Supporting Files */,
+			);
+			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		94EA6D701EC05DDC0026A843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D9F1EC06CD50026A843 /* rootImg */,
+				94EA6D9D1EC069840026A843 /* Assets.xcassets */,
+				9406B8931EDFEBFB00108E70 /* test.png */,
+				94EA6D711EC05DDC0026A843 /* main.m */,
+				94EA6D7E1EC05DDC0026A843 /* LaunchScreen.storyboard */,
+				94EA6D811EC05DDC0026A843 /* Info.plist */,
+				9406B88D1EDFD84100108E70 /* WhatsApp.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94EA6D871EC05E890026A843 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				9406B8951EDFFE9700108E70 /* MyTrend */,
+				94EA6DAA1EC06F3E0026A843 /* TrendPrivacy */,
+				94EA6D911EC0620C0026A843 /* EKTrendViewController.h */,
+				94EA6D921EC0620C0026A843 /* EKTrendViewController.m */,
+				9406B88E1EDFE08500108E70 /* EKTableViewCell.h */,
+				9406B88F1EDFE08500108E70 /* EKTableViewCell.m */,
+				9406B8901EDFE08500108E70 /* EKTableViewCell.xib */,
+			);
+			name = Trend;
+			sourceTree = "<group>";
+		};
+		94EA6D881EC05EF80026A843 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D941EC062160026A843 /* EKPhoneViewController.h */,
+				94EA6D951EC062160026A843 /* EKPhoneViewController.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		94EA6D891EC05F070026A843 /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6DB31EC0813F0026A843 /* EKCinemaViewController.h */,
+				94EA6DB41EC0813F0026A843 /* EKCinemaViewController.m */,
+				9470EF771EC983B200EBA742 /* EKCinemaViewController.xib */,
+			);
+			name = Cinema;
+			sourceTree = "<group>";
+		};
+		94EA6D8A1EC05F130026A843 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D971EC062240026A843 /* EKChatViewController.h */,
+				94EA6D981EC062240026A843 /* EKChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		94EA6D8B1EC05F1F0026A843 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D9A1EC0622C0026A843 /* EKSettingViewController.h */,
+				94EA6D9B1EC0622C0026A843 /* EKSettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		94EA6D8C1EC05F280026A843 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D731EC05DDC0026A843 /* AppDelegate.h */,
+				94EA6D741EC05DDC0026A843 /* AppDelegate.m */,
+				94EA6D791EC05DDC0026A843 /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		94EA6D8D1EC05FD80026A843 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6D8E1EC060740026A843 /* EKRootViewController.h */,
+				94EA6D8F1EC060740026A843 /* EKRootViewController.m */,
+				94EA6DB01EC0726F0026A843 /* EKTabBar.h */,
+				94EA6DB11EC0726F0026A843 /* EKTabBar.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		94EA6D9F1EC06CD50026A843 /* rootImg */ = {
+			isa = PBXGroup;
+			children = (
+				94F43F4F1EC175DB00B77428 /* 动态_@2x.png */,
+				94EA6DBD1EC0C3140026A843 /* 书写@2x.png */,
+				94EA6DB61EC0BB580026A843 /* 加号@2x.png */,
+				94EA6DA01EC06CE70026A843 /* 动态@2x.png */,
+				94EA6DA11EC06CE70026A843 /* 对话@2x.png */,
+				94EA6DA21EC06CE70026A843 /* 设置@2x.png */,
+				94EA6DA31EC06CE70026A843 /* 通话@2x.png */,
+				94EA6DA41EC06CE70026A843 /* 相机@2x.png */,
+			);
+			name = rootImg;
+			sourceTree = "<group>";
+		};
+		94EA6DAA1EC06F3E0026A843 /* TrendPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6DAB1EC06F7E0026A843 /* EKTrendPrivacyViewController.h */,
+				94EA6DAC1EC06F7E0026A843 /* EKTrendPrivacyViewController.m */,
+			);
+			name = TrendPrivacy;
+			sourceTree = "<group>";
+		};
+		94EA6DAE1EC071B40026A843 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				94EA6DB81EC0BC340026A843 /* EKNewChatViewController.h */,
+				94EA6DB91EC0BC340026A843 /* EKNewChatViewController.m */,
+				9406B8891EDFD72100108E70 /* UIView+EKFrame.h */,
+				9406B88A1EDFD72100108E70 /* UIView+EKFrame.m */,
+				9406B88C1EDFD77C00108E70 /* Define.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EA6D6C1EC05DDC0026A843 /* WhatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EA6D841EC05DDC0026A843 /* Build configuration list for PBXNativeTarget "WhatsApp" */;
+			buildPhases = (
+				94EA6D691EC05DDC0026A843 /* Sources */,
+				94EA6D6A1EC05DDC0026A843 /* Frameworks */,
+				94EA6D6B1EC05DDC0026A843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsApp;
+			productName = WhatsApp;
+			productReference = 94EA6D6D1EC05DDC0026A843 /* WhatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EA6D651EC05DDC0026A843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EK;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dove;
+				TargetAttributes = {
+					94EA6D6C1EC05DDC0026A843 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QBX93AYZN4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94EA6D681EC05DDC0026A843 /* Build configuration list for PBXProject "WhatsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94EA6D641EC05DDC0026A843;
+			productRefGroup = 94EA6D6E1EC05DDC0026A843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EA6D6C1EC05DDC0026A843 /* WhatsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EA6D6B1EC05DDC0026A843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA6DBE1EC0C3140026A843 /* 书写@2x.png in Resources */,
+				94F43F501EC175DB00B77428 /* 动态_@2x.png in Resources */,
+				94EA6DA61EC06CE70026A843 /* 对话@2x.png in Resources */,
+				94EA6D801EC05DDC0026A843 /* LaunchScreen.storyboard in Resources */,
+				94EA6DB71EC0BB580026A843 /* 加号@2x.png in Resources */,
+				9406B8921EDFE08500108E70 /* EKTableViewCell.xib in Resources */,
+				94EA6D9E1EC069840026A843 /* Assets.xcassets in Resources */,
+				94EA6DA91EC06CE70026A843 /* 相机@2x.png in Resources */,
+				94EA6DA71EC06CE70026A843 /* 设置@2x.png in Resources */,
+				9406B8941EDFEBFB00108E70 /* test.png in Resources */,
+				94EA6DA51EC06CE70026A843 /* 动态@2x.png in Resources */,
+				94EA6D7B1EC05DDC0026A843 /* Main.storyboard in Resources */,
+				94EA6DA81EC06CE70026A843 /* 通话@2x.png in Resources */,
+				9470EF781EC983B200EBA742 /* EKCinemaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EA6D691EC05DDC0026A843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9406B8981EDFFED100108E70 /* EKMyTrendViewController.m in Sources */,
+				94EA6D751EC05DDC0026A843 /* AppDelegate.m in Sources */,
+				94EA6DB51EC0813F0026A843 /* EKCinemaViewController.m in Sources */,
+				9406B88B1EDFD72100108E70 /* UIView+EKFrame.m in Sources */,
+				94EA6D721EC05DDC0026A843 /* main.m in Sources */,
+				94EA6D931EC0620C0026A843 /* EKTrendViewController.m in Sources */,
+				94EA6DAD1EC06F7E0026A843 /* EKTrendPrivacyViewController.m in Sources */,
+				94EA6DB21EC0726F0026A843 /* EKTabBar.m in Sources */,
+				94EA6D901EC060740026A843 /* EKRootViewController.m in Sources */,
+				94EA6D991EC062240026A843 /* EKChatViewController.m in Sources */,
+				94EA6DBA1EC0BC340026A843 /* EKNewChatViewController.m in Sources */,
+				94EA6D9C1EC0622C0026A843 /* EKSettingViewController.m in Sources */,
+				9406B8911EDFE08500108E70 /* EKTableViewCell.m in Sources */,
+				94EA6D961EC062160026A843 /* EKPhoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94EA6D791EC05DDC0026A843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA6D7A1EC05DDC0026A843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94EA6D7E1EC05DDC0026A843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA6D7F1EC05DDC0026A843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94EA6D821EC05DDC0026A843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94EA6D831EC05DDC0026A843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EA6D851EC05DDC0026A843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QBX93AYZN4;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = ../WhatsApp/WhatsApp/WhatsApp.pch;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dove.qiushifa.WhatsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94EA6D861EC05DDC0026A843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QBX93AYZN4;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = ../WhatsApp/WhatsApp/WhatsApp.pch;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dove.qiushifa.WhatsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EA6D681EC05DDC0026A843 /* Build configuration list for PBXProject "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA6D821EC05DDC0026A843 /* Debug */,
+				94EA6D831EC05DDC0026A843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EA6D841EC05DDC0026A843 /* Build configuration list for PBXNativeTarget "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA6D851EC05DDC0026A843 /* Debug */,
+				94EA6D861EC05DDC0026A843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EA6D651EC05DDC0026A843 /* Project object */;
+}
